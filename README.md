@@ -27,18 +27,9 @@ BAMTQ is a real-time network traffic analysis and intelligent scheduling system 
 #### Platform
 - Ubuntu Linux
 
-### System Workflow
-Packet Capture  
-↓  
-Traffic Classification  
-↓  
-Burst Detection (EWMA)  
-↓  
-Queue Assignment  
-↓  
-EDF + DWRR Scheduling  
-↓  
-Throughput Monitoring & Packet Delivery
+## System Architecture
+
+![BAMTQ Architecture](images/architecture.jpeg)
 
 ### Future Enhancements
 - Machine Learning based traffic prediction
